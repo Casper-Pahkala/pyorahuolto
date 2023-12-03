@@ -3,7 +3,6 @@ import { defineStore } from 'pinia'
 
 export const useAppStore = defineStore('app', {
   state: () => ({
-    mapsApiKey: 'AIzaSyBpkAZ14cbDnpWWv5CrZy6yhMbVkbpO644',
     tab: '',
     offers: [
       {
